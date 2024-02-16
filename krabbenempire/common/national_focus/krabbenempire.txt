@@ -1,0 +1,170 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_INTERNAL_AFFAIRS}
+
+focus_tree = {
+	id = Krabben_empire_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = KRE
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1500 }
+
+
+	focus = {
+		id = KRE_the_king_awake
+
+		icon = GFX_goal_krabbe_anfang
+		x = 20
+		y = 0
+		cost = 5
+		
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		completion_reward = {
+			add_manpower = 20000#
+			add_ideas = the_king_is_there
+		     
+		}
+	}
+
+	focus = {
+		id = KRE_the_fist_step
+
+		icon = GFX_goal_generic_production2
+		x = 20
+		y = 1
+		cost = 5
+		
+		prerequisite = { focus = KRE_the_king_awake }
+
+		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+			add_tech_bonus = {
+				name = KRE_first_step
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+
+			add_tech_bonus = {
+				name = KRE_first_step
+				bonus = 1.0
+				uses = 2
+				category = electronics
+			}
+
+		
+		}
+	}
+
+	focus = {
+		id = KRE_the_second_step
+
+		icon = GFX_goal_generic_production2
+		x = 18
+		y = 2
+		cost = 5
+		
+		prerequisite = { focus = KRE_the_fist_step }
+
+		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+			add_ideas = Abos_visit
+		
+		}
+	}
+
+	focus = {
+		id = KRE_the_third_step
+
+		icon = GFX_goal_generic_production2
+		x = 18
+		y = 3
+		cost = 5
+		
+		prerequisite = { focus = KRE_the_second_step }
+
+		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+			add_ideas = Abos_visit
+		
+		}
+	}
+
+	focus = {
+		id = KRE_army_recover2
+
+		icon = GFX_goal_generic_production2
+		x = 22
+		y = 2
+		cost = 5
+		
+		prerequisite = { focus = KRE_the_fist_step }
+
+		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP }
+		completion_reward = {
+			army_experience = 50
+			
+		
+		}
+	}
+
+	focus = {
+		id = KRE_army_recover1
+
+		icon = GFX_goal_generic_production2
+		x = 30
+		y = 3
+		cost = 5
+
+		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+			add_ideas = Abos_visit
+		
+		}
+	}
+
+	focus = {
+		id = KRE_air_recover
+
+		icon = GFX_focus_SOV_women_in_aviation
+		x = 40
+		y = 3
+		cost = 5
+
+		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+			add_ideas = Abos_visit
+		
+		}
+	}
+
+	focus = {
+		id = KRE_navy_recover
+
+		icon = GFX_goal_generic_production2
+		x = 50
+		y = 3
+		cost = 5
+
+		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+			add_ideas = Abos_visit
+		
+		}
+	}
+
+}
