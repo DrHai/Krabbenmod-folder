@@ -1,0 +1,633 @@
+ideas = {
+
+	country = {
+		Abos_visit = {
+			picture = received_attache
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				monthly_population = 0.2
+			
+			}
+			rule = {
+				
+			}
+		}
+	}
+	
+	country = {
+		the_king_is_there = {
+			picture = gre_metaxism
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_org = 5
+				max_planning = 0.05
+				offence = 0.05
+				consumer_goods_factor = -0.05
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+	
+
+	country = {
+		kanal_mitglieder = {
+			picture = generic_women_in_the_army
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.02
+				stability_factor = -0.03
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+	country = {
+		kanal_mitglieder2 = {
+			picture = generic_women_in_the_army
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.04
+				stability_factor = -0.06
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+	country = {
+		kanal_mitglieder3 = {
+			picture = generic_women_in_the_army
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.06
+				stability_factor = -0.09
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+	country = {
+		kanal_mitglieder4 = {
+			picture = generic_women_in_the_army
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.08
+				stability_factor = -0.12
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+	country = {
+		kanal_mitglieder5 = {
+			picture = generic_women_in_the_army
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				stability_factor = -0.15
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+	country = {
+		kanal_mitglieder6 = {
+			picture = generic_women_in_the_army
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.12
+				stability_factor = -0.18
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+	country = {
+		research = {
+			picture = jap_supremacy_of_technology
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.1
+				political_power_cost = 0.35
+
+				
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+	country = {
+		holy = {
+			picture = generic_agrarian_society
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_speed_factor = 0.05
+				defence = 0.1
+				offence = 0.1
+				supply_consumption_factor = 0.1
+
+				
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+	country = {
+		holy2 = {
+			picture = generic_agrarian_society
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_speed_factor = 0.1
+				defence = 0.12
+				offence = 0.12
+				supply_consumption_factor = 0.15
+
+				
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+	country = {
+		holy3 = {
+			picture = generic_agrarian_society
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_speed_factor = 0.12
+				defence = 0.15
+				offence = 0.15
+				supply_consumption_factor = 0.2
+
+				
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+	country = {
+		armee_angriff = {
+			picture = ast_volunteer_defence_corps
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				offence = 0.04
+				army_core_attack_factor = 0.04
+
+				
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+	country = {
+		armee_angriff2 = {
+			picture = ast_volunteer_defence_corps
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				offence = 0.08
+				army_core_attack_factor = 0.08
+
+				
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+	country = {
+		armee_angriff3 = {
+			picture = ast_volunteer_defence_corps
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				offence = 0.12
+				army_core_attack_factor = 0.12
+
+				
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+
+
+	country = {
+		armee_verteidigung = {
+			picture = generic_fortify_the_borders
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				defence = 0.02
+				dig_in_speed_factor = 0.02
+				max_dig_in = 2
+				land_reinforce_rate = 0.02
+
+				
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+	country = {
+		armee_verteidigung2 = {
+			picture = generic_fortify_the_borders
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				defence = 0.05
+				dig_in_speed_factor = 0.05
+				max_dig_in = 3
+				land_reinforce_rate = 0.05
+
+				
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+	country = {
+		armee_verteidigung3 = {
+			picture = generic_fortify_the_borders
+			
+			allowed = {
+				tag = KRE
+			}
+
+			available = {
+				 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				defence = 0.08
+				dig_in_speed_factor = 0.08
+				max_dig_in = 5
+				land_reinforce_rate = 0.08
+				
+		
+			}
+			rule = {
+				
+			}
+		}
+	}
+
+
+}
