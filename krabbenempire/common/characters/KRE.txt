@@ -1,0 +1,30 @@
+characters={
+	
+	KRE_oscar_griswold={
+		name=KRE_oscar_griswold
+		portraits={
+			army={
+				large=GFX_portrait_USA_oscar_griswold
+				small=GFX_portrait_USA_oscar_griswold_small
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+
+
+
+
+
+
+
+
+  }
